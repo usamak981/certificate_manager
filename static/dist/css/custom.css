@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+overflow-x: hidden;
+}
+.curve{
+font-family: 'Dancing Script', cursive;
+font-size:80px;
+}
+    .mobile-responsive-canvas{
+      transform: scale(1);
+      margin-left: 0rem;
+      margin-top: 0rem;
+    }
+
+  
+.certificate_sec{
+        /* max-width:100% !important; */
+        width: 1024px !important;
+
+        padding:50px 0 10px 0;
+        color: grey;
+        margin-top:20px;
+
+        }
+        hr{
+        border:1px solid grey;
+        }
+        .font_70px{
+        font-size: 70px;
+        font-weight:bold;
+        color: grey;
+        }
+        .font_20px{
+        font-size: 20px;
+
+        }
+        .font_45px{
+            font-size:42px;
+        }
+        .font_40px{
+            font-size:40px;
+        }
+        .font_25px{
+        font-size: 25px;
+        color: grey;
+        }
+        .font_25px{
+            font-size: 25px;
+            margin:0;
+        }
+        .font_35px{
+        font-size: 35px;
+        }
+        .txt_color{
+        color:#2878e0;
+        }
+        .font_weight_400{
+        font-weight:400;
+        }
+        .center{
+        text-align: center;
+        }
+        .bold{
+        font-weight: bold;
+        }
+        .medium{
+        font-weight: 400;
+        }
+        .margin_10px{
+        margin-top:-10px;
+        }
+        .margin_20px{
+        margin-top:-20px;
+        }
+        .margin_min25px{
+        margin-top:-25px;
+        }
+        .margin_left{
+            margin-left: 70px;
+        }
+        .flex_right{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .flex_right p{
+            font-size: 18px;
+        }
+        #certificate_uk2_sec{
+        color: black;
+
+        }
+        #certificate_uk1_sec{
+        color: black;
+        }
+
+
+/* ---------------------------------------------Quiz Form Attempt------------------------- */
+.quiz_heading{
+    text-align:center;
+    margin-top: 10px;
+}
+#Quiz_attempt_Form {
+  margin: 30px auto;
+  padding: 20px;
+  width: 70%;
+  min-width: 300px;
+}
+.radiobtn input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+.quest_heading{
+box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+padding: 10px 25px;
+}
+.radiobtn{
+margin-top: 20px;
+margin-left:30px;
+    display: flex;
+    padding:20px;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+.radiobtn .label{
+    font-size: 20px;
+    font-weight: 400 !important;
+    margin-left:20px;
+
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+/* Hide all steps by default: */
+
+.button {
+    float:right;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius:.25rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+.quiz_attempt_page{
+width: 80%;
+    margin: 50px auto;
+
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+
+    /*---------------error page -----------------*/
+.error_page{
+        width: 80%;
+        margin: 100px auto;
+        padding:50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .error_page h1{
+        font-weight: bold;
+    }
+    .error_page h5{
+    margin-top: 50px;
+    color: red;
+    text-align: center;
+    }
+
+.certificate_logo {
+    width: 100px !important;
+    height: 100px !important;
+}
+.hidden {
+    display: none;
+  }
+  .widd{
+  width: 40%;
+  }
+  .check_flx{
+  display:flex;
+  justify-content: space-between;
+   width:80%;
+   margin:80px auto;
+  }
+@media only screen and (max-width: 767px) {
+	.hide_for_mobile{
+	display: none;
+	}
+	.widd{
+  width: 100%;
+  }
+  .check_flx{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin:30px auto;
+  }
+}
+
+    /* CSS styles for all screens */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    /* CSS styles specific to mobile screens */
+    .mobile-responsive-canvas{
+      transform: scale(0.3);
+      margin-left: -10rem;
+      margin-top: -29rem;
+    }
+  }
+
+  /* Media query for tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS styles specific to tablet screens */
+    .mobile-responsive-canvas{
+      transform: scale(0.4);
+      margin-left: -10rem;
+      margin-top: -29rem;
+    }
+  }

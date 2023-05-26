@@ -1,0 +1,17 @@
+.venv/
+*.xml/
+local_settings.py
+db.sqlite3
+.db.sqlite3
+.db.sqlite3
+*.db.sqlite3
+*.db.sqlite3
+*.idea
+idea
+.myenv/
+.venv/
+.idea/
+*.idea
+*.xml
+*.venv/
+venv
